@@ -2,9 +2,10 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-const InfoPersona = ({ route }) => {
+const InfoPersona = ({ route, navigation }) => {
 
     const { nombre, bebida } = route.params
+    navigation.setOptions({ title: nombre })
 
     return (
         <View style={{

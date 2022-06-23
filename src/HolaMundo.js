@@ -16,7 +16,7 @@ export default function HolaMundo( { navigation } ) {
         color:"white", fontSize:100
       }}>Hola buenos dias</Text>
 
-      <Button title="ir a galería" color="tomato" onPress={ () => navigation.push('galeria') } />
+      <Button title="ir a galería" color="tomato" onPress={ () => navigation.push('Galeria') } />
       <Button title="Juan Carlos :D" color="tomato" onPress={ () => navigation.push('InfoPersona', {
         nombre: 'Juan Carlos',
         bebida: 'Tonicol'
@@ -25,6 +25,8 @@ export default function HolaMundo( { navigation } ) {
         nombre: 'Jesús',
         bebida: 'Tejuino'
       }) } />
+
+      <Button title="formulario" onPress={ () => navigation.push('Formulario') }/>
       
     </View>
 
