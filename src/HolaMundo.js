@@ -13,7 +13,7 @@ export default function HolaMundo( { navigation } ) {
     }}>
       <Text style={{
        
-        color:"white", fontSize:100
+        color:"white", fontSize:20
       }}>Hola buenos dias</Text>
 
       <Button title="ir a galería" color="tomato" onPress={ () => navigation.push('Galeria') } />
@@ -26,7 +26,10 @@ export default function HolaMundo( { navigation } ) {
         bebida: 'Tejuino'
       }) } />
 
+      <Button title="estado" onPress={ () => navigation.push('Estado') }/>
+
       <Button title="formulario" onPress={ () => navigation.push('Formulario') }/>
+
       
     </View>
 

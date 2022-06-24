@@ -4,3 +4,7 @@ npm install @react-navigation/native
 expo install react-native-screens react-native-safe-area-context
 
 npm install @react-navigation/native-stack
+
+
+1:04:40
+muic like tame impala

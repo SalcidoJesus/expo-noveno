@@ -1,8 +1,8 @@
 
-import { ScrollView, Text } from "react-native";
+import { ScrollView, Text, Button } from "react-native";
 import Pelicula from "./Pelicula";
 
-export default function Galeria() {
+export default function Galeria({ navigation }) {
 
     var peliculas = [
         {
@@ -40,6 +40,9 @@ export default function Galeria() {
     return(
         <>
             <ScrollView>
+
+                <Button title='Volver a inicio' color="tomato" onPress={ () => navigation.goBack() } />
+
                 { peliculas.map( ( p, i ) => (
                     <Pelicula
                         key={ i }
