@@ -26,9 +26,9 @@ export default function HolaMundo( { navigation } ) {
         bebida: 'Tejuino'
       }) } />
 
-      <Button title="estado" onPress={ () => navigation.push('Estado') }/>
-
       <Button title="formulario" onPress={ () => navigation.push('Formulario') }/>
+
+      <Button title="estado" onPress={ () => navigation.push('Estado') }/>
 
       
     </View>
